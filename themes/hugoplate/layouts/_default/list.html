@@ -1,0 +1,27 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+
+  <section class="section">
+    <div class="container">
+
+      <!-- 显示 _index.md 的正文 -->
+      <div class="content prose max-w-none mb-10">
+        {{ .Content }}
+      </div>
+
+      <!-- 保留子页面列表 -->
+      <ul class="text-center">
+        {{ range .RegularPages }}
+          <li class="m-3">
+            <a
+              href="{{ .Permalink }}"
+              class="text-text-dark dark:text-darkmode-text-dark block text-xl">
+              {{ .Title }}
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+
+    </div>
+  </section>
+{{ end }}

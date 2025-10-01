@@ -1,0 +1,10 @@
+<section>
+  <div class="container text-center">
+    <div
+      class="from-body to-light dark:from-darkmode-body dark:to-darkmode-light rounded-2xl bg-gradient-to-b px-8 py-2">
+      <h1 class="page-title">
+        {{ T (printf "%s" (lower .Title)) | default .Title | title }}
+      </h1>
+    </div>
+  </div>
+</section>
