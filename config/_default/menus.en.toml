@@ -19,8 +19,21 @@ weight = 3
 
 [[main]]
 name = "People"
+identifier = "people"
 url = "/people/"
 weight = 4
+
+[[main]]
+parent = "people"
+name = "Tom Shi"
+url = "/tomshi/"
+weight = 41
+
+[[main]]
+parent = "people"
+name = "Team Members"
+url = "/authors/"
+weight = 42
 
 [[main]]
 name = "Publication"
@@ -79,6 +92,7 @@ weight = 4
 name = "Join Our Team"
 url = "/join our team"
 weight = 5
+
 
 
 
