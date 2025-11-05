@@ -4,16 +4,20 @@ url: "/contact/"
 type: "page"
 layout: "page"
 draft: false
+menu:
+  main:
+    parent: "Join Our Team"
+    weight: 62
 ---
-（这里放地图与地址 iframe）
 
-### Dr. Xiaowei(Tom) Shi 
-**Email:** [tomshi@uwm.edu](mailto:tomshi@uwm.edu)  
+### Dr. Xiaowei (Tom) Shi
+
+**Email:** [tomshi@uwm.edu](mailto:tomshi@uwm.edu)
 
 **Address:**  
-Northwest Quadrant B 4420
-2015 E NewPort Ave
-Milwaukee, Wisconsin,53211
+Northwest Quadrant B 4420  
+2015 E Newport Ave  
+Milwaukee, Wisconsin 53211
 
 ---
 
@@ -25,4 +29,5 @@ Milwaukee, Wisconsin,53211
     style="border:0; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.1);"
     allowfullscreen=""
     loading="lazy">
+  </iframe>
 </div>
