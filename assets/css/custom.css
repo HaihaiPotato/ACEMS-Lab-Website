@@ -81,10 +81,21 @@ blockquote {
   line-height: 1.6;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);  /* 轻微阴影，增加立体感 */
 }
-/* 去掉引用块自动生成的引号 */
-blockquote::before,
-blockquote::after {
+
+/* 彻底移除引用块自动引号（适配 .prose/Tailwind Typography） */
+.prose blockquote p:first-of-type::before,
+.prose blockquote p:first-of-type::after,
+.prose blockquote p::before,
+.prose blockquote p::after,
+blockquote p:first-child::before,
+blockquote p:first-child::after {
   content: none !important;
+}
+
+/* 保险起见，关闭引号系统 */
+.prose blockquote,
+blockquote {
+  quotes: none !important;
 }
 
 /* 调整 Markdown 水平分割线样式 */
