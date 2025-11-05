@@ -69,16 +69,17 @@ body.page-research .prose h2 {
   border-radius: 8px;     /* 圆角，可选 */
 }
 
-/* 修改 Markdown 引用块样式 */
+/* 优化 Markdown 引用块样式（更柔和、无边框） */
 blockquote {
-  border-left: none !important;   /* 去掉左边黑色竖线 */
-  background-color: #f9f9f9;      /* 淡灰背景，可改成白色 #fff */
-  font-style: normal !important;  /* 去掉斜体 */
-  padding: 1rem 1.5rem;           /* 内边距，让文字有呼吸感 */
-  border-radius: 8px;             /* 圆角 */
-  color: #333;                    /* 字体颜色 */
-  font-size: 1rem;                /* 字体大小（可调大一点，比如 1.1rem） */
+  border: none !important;           /* 去掉所有黑色或灰色边框 */
+  background-color: #fff8e1;         /* 淡黄色背景 (#fff8e1 是温和米黄色) */
+  font-style: normal !important;     /* 取消斜体 */
+  padding: 1.2rem 1.8rem;           /* 内边距稍大一点，更像提示框 */
+  border-radius: 10px;               /* 圆角更柔和 */
+  color: #333;                       /* 字体颜色深灰 */
+  font-size: 1.05rem;                /* 稍大一点的字体 */
   line-height: 1.6;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);  /* 轻微阴影，增加立体感 */
 }
 
 /* 调整 Markdown 水平分割线样式 */
