@@ -10,7 +10,7 @@ draft: false
 ## Southeastern Wisconsin Transportation Symposium is successfully held(10/10/2025).
 The 2025 Southeastern Wisconsin Transportation Symposium, co-hosted by UWM’s Institute for Physical Infrastructure and Transportation (IPIT) and the Wisconsin Department of Transportation (WisDOT), brought together more than 220 transportation professionals, researchers, and students on October 10 at the UWM Student Union—the largest turnout in the event’s history!
 <p align="center">
-  {{< image src="/images/Symposium2025.png" alt="data1" >}}
+  {{< image src="/images/Symposium2025.png" alt="data1" style="width:40%;" >}}
 </p>
 
 ## Dr. Shi Leads UWM Research on Autonomous Vehicles, Featured in TMJ4 Interview(03/26/2025).
