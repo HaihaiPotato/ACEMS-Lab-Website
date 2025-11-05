@@ -43,6 +43,12 @@ name = "Join Our Team"
 url = "/join our team"
 weight = 6
 
+[[main]]
+name = "Contact"
+url = "/contact"
+weight = 7
+
+
 
 # footer menu
 
@@ -75,6 +81,12 @@ weight = 4
 name = "Join Our Team"
 url = "/join our team"
 weight = 5
+
+[[footer]]
+name = "Contact"
+url = "/contact"
+weight = 6
+
 
 
 
