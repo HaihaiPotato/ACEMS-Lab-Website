@@ -1,7 +1,7 @@
 ---
 title: "Contact"
 url: "/contact/"
-type: "page"
+type: "Join Our Team"
 layout: "page"
 draft: false
 menu:
