@@ -7,37 +7,34 @@ images:
 draft: false
 ---
 
-## 🎓 Ph.D. Positions in the Automated, Connected & Electric Mobility Systems Lab
-
-**Dr. Xiaowei (Tom) Shi** is an Assistant Professor in the **Department of Civil and Environmental Engineering** and is also affiliated with the **Department of Electrical Engineering** and the **Institute for Physical Infrastructure and Transportation** at the **University of Wisconsin–Milwaukee (UWM)**.  
-He directs the **Automated, Connected & Electric Mobility Systems (ACEMS) Lab** at UWM and serves as a **Co-chair of the IEEE Emerging Transportation Technology Testing Technical Committee**.  
-👉 [Dr. Shi’s profile](https://uwm.edu/engineering/tomshicee)
+## 🎓 Ph.D. Positions in the ACEMS Lab
 
 ---
 
-### 🔬 Research Overview
+### About Dr.Shi
 
-Dr. Shi’s research focuses on **evaluating emerging mobility technologies**—such as automated, connected, and electric vehicles—and **developing novel solutions** through **field experiments** and **hardware-in-the-loop methodologies**.  
-His work has been published in top transportation journals, including *Transportation Science*, *Transportation Research Parts A–F*, and *IEEE Transactions on Intelligent Transportation Systems (ITS)*.  
+Dr. Xiaowei (Tom) Shi is an Assistant Professor in the Department of Civil and Environmental Engineering and is also affiliated with the Department of Electrical Engineering and the Institute for Physical Infrastructure and Transportation(IPIT) at the University of Wisconsin–Milwaukee (UWM).  He directs the Automated, Connected & Electric Mobility Systems (ACEMS) Lab at UWM and serves as a **Co-chair of the IEEE Emerging Transportation Technology Testing Technical Committee.  [Dr. Shi’s profile](https://uwm.edu/engineering/tomshicee)
 
-He is an **Area Editor** of *Cleaner Logistics and Supply Chain* and serves on the **Editorial Board** of *Transportation Research Today*.  
-Dr. Shi has led numerous externally funded projects supported by the **US DOT**, **Wisconsin DOT**, and **industry partners**.  
+Dr. Shi’s research focuses on evaluating emerging mobility technologies—such as automated, connected, and electric vehicles—and developing novel solutions through field experiments and hardware-in-the-loop methodologies.  His work has been published in top transportation journals, including Transportation Science, Transportation Research Parts A–F, and IEEE Transactions on Intelligent Transportation Systems (ITS).  
 
-Over the next six years, his team will participate in a **US DOT–sponsored national initiative** on how automated vehicles can benefit rural communities.
+He is an Area Editor of Cleaner Logistics and Supply Chain and serves on the Editorial Board of Transportation Research Today.  
+Dr. Shi has led numerous externally funded projects supported by the US DOT, Wisconsin DOT, and industry partners.  
 
----
-
-### 🏫 About UWM and Milwaukee
-
-The **University of Wisconsin–Milwaukee (UWM)** is classified as an **R1 Research University** (very high research activity) by the **Carnegie Classification**.  
-Milwaukee, located on the shores of **Lake Michigan**, is Wisconsin’s largest city—home to the **Milwaukee Bucks (NBA)** and a vibrant cultural scene.
-
-✈️ **MKE Airport** offers direct flights to 30+ US destinations.  
-🚗 UWM is conveniently close to **Chicago (2 hrs)** and **Madison (1.5 hrs)**.
+Over the next six years, his team will participate in a US DOT–sponsored national initiative on how automated vehicles can benefit rural communities.
 
 ---
 
-### 🧠 Ph.D. Openings — Fall 2026
+### About UWM and Milwaukee
+
+The University of Wisconsin–Milwaukee (UWM) is classified as an R1 Research University (very high research activity) by the Carnegie Classification.  
+Milwaukee, located on the shores of Lake Michigan, is Wisconsin’s largest city—home to the Milwaukee Bucks (NBA) and a vibrant cultural scene.
+
+✈️ MKE Airport offers direct flights to 30+ US destinations.  
+🚗 UWM is conveniently close to Chicago (2 hrs) and Madison (1.5 hrs).
+
+---
+
+### Ph.D. Openings — Fall 2026
 
 Dr. Shi plans to recruit **1–2 highly motivated Ph.D. students** starting in **Fall 2026**, focusing on:
 
@@ -56,7 +53,7 @@ These positions will be **fully funded** via research or teaching assistantships
 
 ---
 
-### 📄 How to Apply
+### How to Apply
 
 Interested applicants should send the following as a **single PDF** to [Dr. Shi (tomshi@uwm.edu)](mailto:tomshi@uwm.edu):
 
