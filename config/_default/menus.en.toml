@@ -1,6 +1,7 @@
 ############# English navigation ##############
 
-# main menu
+# Top nav
+
 [[main]]
 name = "Home"
 url = "/"
@@ -8,51 +9,43 @@ weight = 1
 
 [[main]]
 name = "News"
-url = "/news"
+url = "/news/"
 weight = 2
 
 [[main]]
 name = "Research"
-url = "/research"
+url = "/research/"
 weight = 3
 
 [[main]]
 name = "People"
-url = "/people"
+url = "/people/"
 weight = 4
-
-
-[[main]]
-parent = "People"
-name = "Tom Shi"
-url = "/tom-shi"
 
 [[main]]
 name = "Publication"
-url = "/publication"
+url = "/publication/"
 weight = 5
 
-
-[[main]]
-parent = "People"
-name = "Team Member"
-url = "/team-member"
-
+# Parent: Join Our Team
 [[main]]
 name = "Join Our Team"
-url = "/join our team"
+identifier = "join"
+url = "/join-our-team/"
 weight = 6
 
+# Child: Opportunities
 [[main]]
-parent = "Join Our Team"
-name = “join our team”
-url = "/join our team"
+parent = "join"
+name = "Opportunities"
+url = "/join-our-team/"
 weight = 61
 
+# Child: Contact
 [[main]]
-parent = "Join Our Team"
-name = “Contact”
-url = "/contact"
+parent = "join"
+name = "Contact"
+url = "/join-our-team/contact/"
 weight = 62
 
 # footer menu
@@ -86,6 +79,7 @@ weight = 4
 name = "Join Our Team"
 url = "/join our team"
 weight = 5
+
 
 
 
