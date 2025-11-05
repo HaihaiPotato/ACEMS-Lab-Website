@@ -37,7 +37,7 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [navigation_button]
-enable = true
+enable = false
 label = "get a quote"
 link = "contact"
 
@@ -46,11 +46,11 @@ link = "contact"
 [search]
 enable = true
 primary_color = "#121212"
-include_sections = ["blog"]
+include_sections = ["news", "research", "publication"]  # 只索引这三类
 show_image = true
 show_description = true
-show_tags = true
-show_categories = true
+show_tags = false        # 如果你没用 tag，可以关掉（可选）
+show_categories = false  # 如果你没用 category，可以关掉（可选）
 
 # announcement
 # announcement module: https://github.com/gethugothemes/hugo-modules/tree/master/components/announcement

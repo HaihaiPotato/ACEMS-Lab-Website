@@ -1,31 +1,33 @@
 {{ define "main" }}
   <section class="section-sm pb-0">
     <div class="container">
-      <div
-        class="row border-border dark:border-darkmode-border justify-center border-b pb-14">
-        <div class="lg:col-4 text-center">
+      <div class="row border-border dark:border-darkmode-border justify-center border-b pb-14">
+        <!-- 去掉 text-center，防止把正文居中 -->
+        <div class="lg:col-4">
           {{ $image:= .Params.image }}
           {{ if $image }}
             {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mx-auto" "Size" "200x200") }}
           {{ else if .Params.Email }}
-            <img
-              class="mx-auto"
-              alt="{{ .Title }}"
-              height="200"
-              width="200"
-              src="https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=128&pg&d=identicon" />
+            <img class="mx-auto" alt="{{ .Title }}" height="200" width="200"
+                 src="https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=128&pg&d=identicon" />
           {{ end }}
-          <h1 class="h3 mt-10">{{ .Title }}</h1>
-          <div class="content mt-6">
+
+          <h1 class="h3 mt-10 text-center">{{ .Title }}</h1>
+
+          <!-- 关键：让内容左对齐，并启用排版；很多主题会把 ul 的 list-style 去掉，这里补回来 -->
+          <div class="content mt-6 prose max-w-none text-left">
+            <style>
+              .content { text-align:left !important; }
+              .content ul { list-style:disc !important; padding-left:1.25rem !important; margin:0; }
+              .content li { margin:0.25rem 0; }
+            </style>
             {{ .Content }}
           </div>
-          <ul class="social-icons ml-4 mt-10 text-center">
+
+          <ul class="social-icons ml-4 mt-10">
             {{ range .Params.social }}
               <li>
-                <a
-                  href="{{ .link | safeURL }}"
-                  target="_blank"
-                  rel="noopener nofollow">
+                <a href="{{ .link | safeURL }}" target="_blank" rel="noopener nofollow">
                   <span class="sr-only">{{ .title }}</span>
                   <i class="{{ .icon }}"></i>
                 </a>

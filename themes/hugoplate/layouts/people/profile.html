@@ -1,0 +1,74 @@
+{{ define "main" }}
+<section class="section py-8 md:py-12">
+  <div class="container">
+    <div class="row items-start gap-y-8">
+      <!-- 左侧头像列 -->
+      <aside class="md:col-4 lg:col-3">
+        {{ with .Params.image }}
+          <img src="{{ . | relURL }}" alt="{{ $.Title }}" class="w-full rounded-lg shadow object-cover">
+        {{ else }}
+          <div class="w-full h-64 bg-light dark:bg-darkmode-light rounded-lg"></div>
+        {{ end }}
+      </aside>
+
+      <!-- 右侧信息列 -->
+      <article class="md:col-8 lg:col-9">
+        <h1 class="mb-4 text-h3 lg:text-h2 font-extrabold">{{ .Title }}</h1>
+        {{ if or .Params.email .Params.office }}
+          <div class="bg-light dark:bg-darkmode-light rounded-xl p-6 mb-10 border border-gray-200">
+            <div class="text-base md:text-lg leading-relaxed text-gray-800 dark:text-gray-200 space-y-2">
+              <p><strong>Assistant Professor</strong>, Civil & Environmental Engineering</p>
+              <p><strong>Founder and Director</strong>, Automated, Connected & Electric Mobility Systems Lab</p>
+              {{ with .Params.email }}
+                <p><strong>Email:</strong> <a href="mailto:{{ . }}" class="text-primary hover:underline">{{ . }}</a></p>
+              {{ end }}
+              {{ with .Params.office }}
+                <p><strong>Office:</strong> {{ . }}</p>
+              {{ end }}
+            </div>
+          </div>
+        {{ end }}
+        {{ with .Params.intro }}
+          <div class="border-l-4 border-primary pl-4 mb-6">
+           <div class="text-base md:text-lg text-gray-700 dark:text-gray-300 space-y-4">
+              {{ . | markdownify }}
+            </div>
+          </div>
+        {{ end }}
+
+
+        <!-- 研究方向 -->
+        {{ with .Params.research }}
+          <div class="bg-light dark:bg-darkmode-light rounded-xl p-6">
+          <h2 class="text-h4 font-bold mb-3">RESEARCH INTEREATS</h2>
+          <ul class="list-disc pl-6 space-y-1">
+            {{ range . }}<li>{{ . }}</li>{{ end }}
+          </ul>
+          </div>
+        {{ end }}
+
+        <!-- 正文（可选） -->
+        <div class="prose max-w-none mb-10">
+          {{ .Content }}
+        </div>
+
+        <!-- 教育经历 -->
+        {{ with .Params.education }}
+          <div class="bg-light dark:bg-darkmode-light rounded-xl p-6">
+            <h2 class="text-h4 font-bold mb-4">EDUCATION</h2>
+            <ul class="space-y-3">
+              {{ range . }}
+                <li>
+                  <p class="font-semibold">{{ .degree }}</p>
+                  {{ with .sub }}<p class="text-sm opacity-80">{{ . }}</p>{{ end }}
+                  {{ with .note }}<p class="text-sm">{{ . }}</p>{{ end }}
+                </li>
+              {{ end }}
+            </ul>
+          </div>
+        {{ end }}
+      </article>
+    </div>
+  </div>
+</section>
+{{ end }}

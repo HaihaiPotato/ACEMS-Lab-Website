@@ -35,4 +35,29 @@ body.page-research .prose h2 {
   margin-bottom: 0.0rem !important;
 }
 
+.navbar-nav {
+  margin-left: -100px; /* 负值向左移动，调节数值直到视觉居中 */
+}
+
+/* 当前研究内容区块内的标题链接样式 */
+.research-list a {
+  color: #0f172a;                /* 默认深色 */
+  text-decoration: underline;    /* 下划线 */
+  text-decoration-color: #FFD700; /* 正黄色下划线 */
+  font-weight: 700;
+  font-size: 1.1rem;
+  transition: color 0.3s ease, text-decoration-color 0.3s ease;
+}
+
+/* 悬停时：亮黄色文字 + 深黄下划线 */
+.research-list a:hover {
+  color: #FFD700;                 /* 正黄色 (gold) */
+  text-decoration-color: #c89317; /* 深黄色下划线 */
+}
+
+/* 点击访问过后：深黄色文字 + 深黄色下划线 */
+.research-list a:visited {
+  color: #c89317;                 /* 深黄色 */
+  text-decoration-color: #c89317; /* 下划线同色 */
+}
 

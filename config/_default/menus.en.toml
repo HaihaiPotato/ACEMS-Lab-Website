@@ -7,60 +7,63 @@ url = "/"
 weight = 1
 
 [[main]]
+name = "News"
+url = "/news"
+weight = 2
+
+[[main]]
 name = "Research"
 url = "/research"
-weight = 2
+weight = 3
 
 [[main]]
 name = "People"
 url = "/people"
-weight = 3
+weight = 4
 
-[[main]]
-parent = "People"
-name = "Team member"
-url = "/team member"
 
 [[main]]
 parent = "People"
 name = "Tom Shi"
-url = "/tom shi"
+url = "/tom-shi"
 
 [[main]]
 name = "Publication"
 url = "/publication"
-weight = 4
-
-[[main]]
-name = "News"
-url = "/news"
 weight = 5
 
 
 [[main]]
-parent = "News"
-name = "Contact"
-url = "/contact"
-
-[[main]]
-parent = "News"
-name = "Authors"
-url = "/authors"
-
+parent = "People"
+name = "Team Member"
+url = "/team-member"
 
 
 # footer menu
+
 [[footer]]
-name = "Research"
-url = "/research"
+name = "News"
+url = "/news"
 weight = 1
 
 [[footer]]
-name = "People"
-url = "/people"
+name = "Research"
+url = "/research"
 weight = 2
 
 [[footer]]
-name = "Privacy Policy"
-url = "/privacy-policy"
+name = "People"
+url = "/team member"
 weight = 3
+
+[[footer]]
+name = "People"
+url = "/tom shi"
+weight = 3
+
+[[footer]]
+name = "Publication"
+url = "/publication"
+weight = 4
+
+
