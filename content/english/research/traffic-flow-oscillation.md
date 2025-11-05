@@ -11,7 +11,7 @@ Stop-and-go traffic, caused by repeated braking and acceleration, produces annoy
 
 
 <p align="center">
-  <img src="/images/RC.png" alt="RC Car Experiment" width="60%">
+  {{< image src="/images/RC.png" alt="data1" >}}
 </p>
 <p align="center">
   {{< image src="/images/rc1.png" alt="data1" >}}
