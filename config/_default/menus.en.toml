@@ -45,7 +45,7 @@ weight = 6
 
 [[main]]
 parent = "Join Our Team"
-name = "/Join our team"
+name = "Join our team"
 url = "/join our team"
 
 [[main]]
@@ -87,6 +87,7 @@ weight = 4
 name = "Join Our Team"
 url = "/join our team"
 weight = 5
+
 
 
 
