@@ -61,3 +61,10 @@ body.page-research .prose h2 {
   text-decoration-color: #c89317; /* 下划线同色 */
 }
 
+.img-medium {
+  width: 40%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;    /* 居中并留出上下间距 */
+  border-radius: 8px;     /* 圆角，可选 */
+}
