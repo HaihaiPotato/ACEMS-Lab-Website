@@ -7,7 +7,7 @@ images:
 draft: false
 ---
 
-## 🎓 Ph.D. Positions in the ACEMS Lab
+<h2 style="text-align:center;">🎓 Ph.D. Positions in the ACEMS Lab</h2>
 
 ---
 
