@@ -68,3 +68,24 @@ body.page-research .prose h2 {
   margin: 1.5rem auto;    /* 居中并留出上下间距 */
   border-radius: 8px;     /* 圆角，可选 */
 }
+
+/* 修改 Markdown 引用块样式 */
+blockquote {
+  border-left: none !important;   /* 去掉左边黑色竖线 */
+  background-color: #f9f9f9;      /* 淡灰背景，可改成白色 #fff */
+  font-style: normal !important;  /* 去掉斜体 */
+  padding: 1rem 1.5rem;           /* 内边距，让文字有呼吸感 */
+  border-radius: 8px;             /* 圆角 */
+  color: #333;                    /* 字体颜色 */
+  font-size: 1rem;                /* 字体大小（可调大一点，比如 1.1rem） */
+  line-height: 1.6;
+}
+
+/* 调整 Markdown 水平分割线样式 */
+hr {
+  border: none;                /* 去掉默认边框 */
+  height: 2px;                 /* 设置线条粗细，可改为 3px 更醒目 */
+  background-color: #d4af37;   /* 改成深金色，可换成 #333 深灰 或 #000 黑色 */
+  margin: 2rem 0;              /* 上下留空距离 */
+  border-radius: 2px;          /* 让线条稍微圆润 */
+}
