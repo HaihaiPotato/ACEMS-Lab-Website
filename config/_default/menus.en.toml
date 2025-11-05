@@ -38,6 +38,11 @@ parent = "People"
 name = "Team Member"
 url = "/team-member"
 
+[[main]]
+name = "Join Our Team"
+url = "/join our team"
+weight = 6
+
 
 # footer menu
 
@@ -65,5 +70,11 @@ weight = 3
 name = "Publication"
 url = "/publication"
 weight = 4
+
+[[footer]]
+name = "Join Our Team"
+url = "/join our team"
+weight = 5
+
 
 
