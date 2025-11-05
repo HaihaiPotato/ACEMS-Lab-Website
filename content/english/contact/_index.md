@@ -22,11 +22,4 @@ Milwaukee, Wisconsin,53211
     style="border:0; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.1);"
     allowfullscreen=""
     loading="lazy">
-  </iframe>
-
-  <p style="margin-top: 1rem; font-size: 1rem; line-height: 1.5; color: #444;">
-    📍 <strong>Northwest Quadrant B (NWQ B)</strong><br>
-    <em>University of Wisconsin–Milwaukee</em><br>
-    2025 E Newport Ave, Milwaukee, WI 53211
-  </p>
 </div>
