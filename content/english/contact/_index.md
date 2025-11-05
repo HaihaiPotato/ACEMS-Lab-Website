@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-url: "/join our team/contact/"
+url: "/contact/"
 type: "page"
 layout: "page"
 draft: false
