@@ -19,7 +19,7 @@ draft: false
   {{< image src="/images/publications/Shockwave2025.png" style="width:60%; margin:10px auto; display:block;" >}}
 
 - Shen, D., Liang, X., Huang, S., Qin, X., and Shi, X., 2024. *A Computational Framework for Automated Vehicle Decision-Making at Crosswalks.* 2025 TRB Annual Meeting.
-  {{< image src="/images/publications/DecesionMaking2024.png" style="width:60%; margin:10px auto; display:block;" >}}
+  {{< image src="/images/publications/DecesionMaking2025.png" style="width:60%; margin:10px auto; display:block;" >}}
 
 
 
