@@ -44,9 +44,15 @@ url = "/join our team"
 weight = 6
 
 [[main]]
+name = "Join Our Team"
+name = "/Join our team"
+url = "/join our team"
+
+[[main]]
+name = "Join Our Team"
 name = "Contact"
 url = "/contact"
-weight = 7
+
 
 
 
@@ -86,6 +92,7 @@ weight = 5
 name = "Contact"
 url = "/contact"
 weight = 6
+
 
 
 
