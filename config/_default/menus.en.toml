@@ -38,29 +38,22 @@ parent = "People"
 name = "Team Member"
 url = "/team-member"
 
-
-# 一级菜单：Join Our Team
 [[main]]
 name = "Join Our Team"
-identifier = "join"     # 给子菜单用来引用
-url = "/join our team/"
+url = "/join our team"
 weight = 6
 
-# 子菜单 1：Join Our Team（主要招聘页面）
 [[main]]
-parent = "join our team"
-name = "Opportunities"
-url = "/join our team/"
+parent = "Join Our Team"
+name = “join our team”
+url = "/join our team"
 weight = 61
 
-# 子菜单 2：Contact
 [[main]]
-parent = "join our team"
-name = "Contact"
-url = "/join our team/contact/"
+parent = "Join Our Team"
+name = “Contact”
+url = "/contact"
 weight = 62
-
-
 
 # footer menu
 
@@ -93,6 +86,7 @@ weight = 4
 name = "Join Our Team"
 url = "/join our team"
 weight = 5
+
 
 
 
