@@ -1,13 +1,10 @@
 ---
 title: "Contact"
 url: "/contact/"
-type: "Join Our Team"
+type: "Contact"
 layout: "page"
 draft: false
-menu:
-  main:
-    parent: "Join Our Team"
-    weight: 62
+
 ---
 
 ### Dr. Xiaowei (Tom) Shi
