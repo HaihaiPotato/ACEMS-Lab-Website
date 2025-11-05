@@ -13,7 +13,7 @@ draft: false
 
 ### About Dr.Shi
 
-Dr. Xiaowei (Tom) Shi is an Assistant Professor in the Department of Civil and Environmental Engineering and is also affiliated with the Department of Electrical Engineering and the Institute for Physical Infrastructure and Transportation(IPIT) at the University of Wisconsin–Milwaukee (UWM).  He directs the Automated, Connected & Electric Mobility Systems (ACEMS) Lab at UWM and serves as a **Co-chair of the IEEE Emerging Transportation Technology Testing Technical Committee.  This is [Dr. Shi’s profile](https://uwm.edu/engineering/tomshicee)
+Dr. Xiaowei (Tom) Shi is an Assistant Professor in the Department of Civil and Environmental Engineering and is also affiliated with the Department of Electrical Engineering and the Institute for Physical Infrastructure and Transportation(IPIT) at the University of Wisconsin–Milwaukee (UWM).  He directs the Automated, Connected & Electric Mobility Systems (ACEMS) Lab at UWM and serves as a Co-chair of the IEEE Emerging Transportation Technology Testing Technical Committee.  This is [Dr. Shi’s profile](https://uwm.edu/engineering/tomshicee).
 
 His research focuses on evaluating emerging mobility technologies—such as automated, connected, and electric vehicles—and developing novel solutions through field experiments and hardware-in-the-loop methodologies.  His work has been published in top transportation journals, including Transportation Science, Transportation Research Parts A–F, and IEEE Transactions on Intelligent Transportation Systems (ITS).  
 
