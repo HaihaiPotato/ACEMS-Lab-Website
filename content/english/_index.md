@@ -14,7 +14,7 @@ banner:
 features:
   - title: "LAB INTRODUCTION"
     image: "/images/home.png"
-    content: "We focus on evaluating emerging mobility technologies such as automated and connected vehicles, and developing novel solutions through field experiments and hardware-in-the-loop methodologies."
+    content: "We focus on evaluating emerging mobility technologies, including automated and connected vehicles, and developing novel solutions through field experiments and hardware-in-the-loop testing."
     bulletpoints:
       - "**🚗 field experiment-based traffic dynamics:** Focusing on reproducing and mitigating traffic oscillations and evaluating safety under real-world imperfections."
       - "**🧠 Intelligent decision-making and anomaly detection:** Enabling automated vehicles to recognize risky behaviors and make optimal decisions in mixed traffic."
