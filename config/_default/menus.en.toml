@@ -26,7 +26,7 @@ weight = 4
 [[main]]
 parent = "people"
 name = "Tom Shi"
-url = "/tomshi/"
+url = "/tom-shi/"
 weight = 41
 
 [[main]]
@@ -92,6 +92,7 @@ weight = 4
 name = "Join Our Team"
 url = "/join our team"
 weight = 5
+
 
 
 
