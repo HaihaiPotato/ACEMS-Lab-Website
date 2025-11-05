@@ -58,7 +58,7 @@ weight = 61
 [[main]]
 parent = "join"
 name = "Contact"
-url = "/join-our-team/contact/"
+url = "/contact/"
 weight = 62
 
 # footer menu
@@ -92,6 +92,7 @@ weight = 4
 name = "Join Our Team"
 url = "/join our team"
 weight = 5
+
 
 
 
