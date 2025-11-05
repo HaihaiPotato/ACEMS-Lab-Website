@@ -1,8 +1,11 @@
 ---
 title: "Contact"
-url: "/contact"
+url: "/join our team/contact/"
+type: "page"
+layout: "page"
 draft: false
 ---
+（这里放地图与地址 iframe）
 
 ### Dr. Xiaowei(Tom) Shi 
 **Email:** [tomshi@uwm.edu](mailto:tomshi@uwm.edu)  
