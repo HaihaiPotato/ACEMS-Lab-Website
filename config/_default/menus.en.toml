@@ -50,7 +50,7 @@ weight = 6
 # Child: Opportunities
 [[main]]
 parent = "join"
-name = "Ph.D.Positions"
+name = "Ph.D. Positions"
 url = "/join-our-team/"
 weight = 61
 
@@ -96,6 +96,7 @@ weight = 5
 name = "Contact"
 url = "/contact"
 weight = 6
+
 
 
 
