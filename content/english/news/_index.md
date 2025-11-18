@@ -7,6 +7,12 @@ image: "/images/TMJ4.png"
 image: "/images/01222025.png"
 draft: false
 ---
+## Industrial Engineering Students Visit to ACEMS Lab(11/13/2025)
+Narayan introduced the robotic car platform, giving newcomers a brief overview of its capabilities and ongoing research goals.
+<p align="center">
+  {{< image src="/images/INDstudentvisit.png" alt="INDstudentvisit.png" class="img-medium" >}}
+</p>
+    
 ## Southeastern Wisconsin Transportation Symposium is successfully held(10/10/2025).
 The 2025 Southeastern Wisconsin Transportation Symposium, co-hosted by UWM’s Institute for Physical Infrastructure and Transportation (IPIT) and the Wisconsin Department of Transportation (WisDOT), brought together more than 220 transportation professionals, researchers, and students on October 10 at the UWM Student Union—the largest turnout in the event’s history!
 <p align="center">
