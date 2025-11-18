@@ -10,7 +10,7 @@ draft: false
 ## Industrial Engineering Students Visit to ACEMS Lab(11/13/2025)
 Narayan introduced the robotic car platform, giving newcomers a brief overview of its capabilities and ongoing research goals.
 <p align="center">
-  {{< image src="/images/INDstudentvisit.png" alt="INDstudentvisit.png" class="img-medium" >}}
+  {{< image src="/images/news/INDstudentvisit.png" alt="INDstudentvisit.png" class="img-medium" >}}
 </p>
     
 ## Southeastern Wisconsin Transportation Symposium is successfully held(10/10/2025).
